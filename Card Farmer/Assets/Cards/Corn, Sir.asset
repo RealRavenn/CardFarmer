@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605c2bad88285d94db858926062c00ca, type: 3}
+  m_Name: Corn, Sir
+  m_EditorClassIdentifier: 
+  cardName: Corn, Sir
+  description: Sir, this is your corn
+  artwork: {fileID: 21300000, guid: 79a1a307c3f63ac40a39c609d753c8b2, type: 3}
+  cost: 3
+  cost2: 3
+  benefit: 4
+  benefit2: 4
