@@ -1,16 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BenefitTotal : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public static int total;
+    public Text benefitText;
+
+    void Start()
+    {
+
+    }
+
+    void Update()
+    {
+        total = PotatoBenefit.potatoTotal + BeeBenefit.BeeTotal + CornBenefit.CornTotal + FlyBenefit.FlyTotal + RaindropBenefit.RaindropTotal + SickleBenefit.SickleTotal + SunBenefit.SunTotal;
+        Debug.Log(total);
+
+        benefitText.text = total.ToString();
+    }
 }
